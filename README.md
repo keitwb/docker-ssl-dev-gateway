@@ -22,5 +22,5 @@ service with a HTTP service called `app`:
       ports:
         - "9443:443"
       environment:
-        ORIGIN_SERVER: nginx:80
+        ORIGIN_SERVER: app:80
 
